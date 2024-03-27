@@ -66,7 +66,7 @@ class Program
 
     static void MostrarBanner()
     {
-        Console.ForegroundColor = ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(" @@@@@@    @@@@@@   @@@  @@@  @@@  @@@  @@@  @@@@@@@@   @@@@@@   @@@  @@@  ");
         Console.WriteLine("@@@@@@@@  @@@@@@@   @@@  @@@@ @@@  @@@  @@@  @@@@@@@@  @@@@@@@   @@@  @@@  ");
         Console.WriteLine("@@!  @@@  !@@       @@!  @@!@!@@@  @@!  @@@  @@!       !@@       @@!  !@@  ");
@@ -89,38 +89,72 @@ class Program
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("--- Personas ---");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mABC TELÉFONOS\u001b[0m - Agenda telefónica y de direcciones.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.abctelefonos.com/");
-        Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\u001b[1mSPOKEO\u001b[0m - Búsqueda por nombre, teléfono, dirección o email.");
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine("   https://www.spokeo.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mLULLAR\u001b[0m - Búsqueda de perfiles por email, nombre o pseudónimo.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://lullar-com-3.appspot.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\u001b[1mGENEANET\u001b[1m - Búsqueda de familiares, árbol genealógico.");
+        Console.WriteLine("\u001b[1mGENEANET\u001b[0m - Búsqueda de familiares, árbol genealógico.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://es.geneanet.org/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mYANSI\u001b[0m- Búsqueda de persona.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   http://www.yasni.com/");
-        Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\u001b[1mPEEKYOU\u001b[0m - Búsqueda de personas EEUU.");
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine("   https://www.peekyou.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mWEBMII\u001b[0m - Buscador de personas.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://webmii.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mREDES SOCIALES\u001b[0m - Buscador CSE de Redes Sociales.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://cse.google.com/cse?cx=014962206127055623955:o1ggmde5erw");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mABC TELÉFONOS\u001b[0m - Agenda telefónica y de direcciones.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.faceplusplus.com/face-comparing/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mSEARCH 4 FACES\u001b[0m - Búsqueda inversa por imagen en redes sociales. Calidad baja.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://Search4faces.com");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mPIMEYES\u001b[0m - Busca rostros similares. En ocasiones funciona mejor con VPN. Versión de pago más resultado.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://pimeyes.com");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mFACE PLUS PLUS\u001b[0m - Compara dos ímágenes y muestra el nivel de similitud.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.abctelefonos.com/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mIAT\u001b[0m - Compara dos ímágenes y muestra el nivel de similitud (APP).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mMX FACE\u001b[0m - Compara dos ímágenes y muestra el nivel de similitud.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://mxface.ai/face-comparing#Face_Detection_demo_section");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mREMINI\u001b[0m - Mejora calidad de una caraen una foto.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://app.remini.ai");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
         Console.ReadKey();
@@ -130,49 +164,102 @@ class Program
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("\n--- Telefonía ---");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mCNMC MV\u001b[0m - Consulta operadora de línea móvil.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://numeracionyoperadores.cnmc.es/portabilidad/movil");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mEMOBILETRACKER\u001b[0m - Consulta posible usuario de una línea.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.emobiletracker.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mPREFIJOS INTERNACIONALES\u001b[0m - Listado de prefijos telefónicos internacionales.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://telegra.ph/CODIGOS-TELEF%C3%93NICOS-06-07");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mDEFASTRA\u001b[0m - Información de un número de teléfono.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://defastra.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mBIZUM\u001b[0m.");
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   Puedes obtener el nombre y las iniciales del apellido antes de confirmar el envío.");
+
         Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\u001b[1mTRUECALLER\u001b[0m");
+        Console.WriteLine("\u001b[1mTRUECALLER\u001b[0m - Consulta teléfono y app de Caller ID y anti-spam.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   http://www.truecaller.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\u001b[1mDENUNCIAS\u001b[0m");
+        Console.WriteLine("\u001b[1mDENUNCIAS\u001b[0m - Denuncias de usuarios.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   http://www.numerosdetelefono.es/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mCALCULADORA DE IMEI\u001b[0m - Obtén el dígito de control.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.imei.info/calc");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mIMEI DATA\u001b[0m - Obtén marca y modelo del terminal.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://imeidata.org/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mABC TELÉFONOS\u001b[0m - Agenda telefónica y de direcciones.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.abctelefonos.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mSPOKEO\u001b[0m - Búsqueda por nombre, teléfono, dirección o email.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.spokeo.com/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[LMSMSC\u001b[0m — Estado de actividad del teléfono (Ruso).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://smsc.ru/testhlr/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mWHOISXML\u001b[0m — identifica dominios de sitios web registrados con un número de teléfono.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://tools.whoisxmlapi.com/reverse-whois-search");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mVEDBEX\u001b[0m — Encontrará un Skype.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.vedbex.com/tools/phone2skype#search&bae=0622304652");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mLEAK-LOOKUP\u001b[0m — Mostrará en qué sitios hubo una filtración con el número de teléfono deseado.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://leak-lookup.com/search");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mREVEALME\u001b[0m — Dará el nombre del propietario del teléfono, el nombre del proveedor de servicios.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.revealname.com/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mWHOSENO\u001b[0m — Muestra nombre.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://whoseno.com/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mINTLX\u001b[0m — Encontrará menciones de un número de teléfono en filtraciones, dará el nombre del archivo y la fuente, ingresará el número de teléfono en todos los formatos posibles, con y sin un signo más, con y sin guiones o paréntesis.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://intelx.io/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mSEON\u001b[0m — Encontrará Skype, Viber, cuentas de WhatsApp, Microsoft, verificará dónde está registrado.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   http://seon.io");
+
         // Continúa añadiendo enlaces aquí
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
@@ -225,9 +312,13 @@ class Program
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://cse.google.com/cse?cx=d729c838d3156499b#gsc.tab=0");
         Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("UTOPIA CSE - Start.me del metabuscador con CSE.");
+        Console.WriteLine("\u001b[1mUTOPIA CSE\u001b[0m - Start.me del metabuscador con CSE.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://start.me/p/EL84Km/cse-utopia");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mCarrot2\u001b[0m - Buscador por cluster.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://search.carrot2.org/");
         // Continúa añadiendo enlaces aquí
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
@@ -289,6 +380,14 @@ class Program
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.robtex.com/");
         Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mCRIMINAL IP\u001b[0m - Buscador CTI.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.criminalip.io/");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mINTERNET ARCHIVE\u001b[0m - Biblioteca digital y wayback machine.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://archive.org/");
+        Console.ForegroundColor = ConsoleColor.White;
         // Continúa añadiendo enlaces aquí
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
@@ -305,40 +404,129 @@ class Program
         Console.WriteLine("\u001b[1mMOHMAL\u001b[0m - Correo temporal.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.mohmal.com/es");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mEPIEOS\u001b[0m - Plataforma de correos electrónicos seguros.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://epieos.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mHUNTER.IO\u001b[0m - Herramienta de búsqueda de direcciones de correo electrónico.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://hunter.io/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mPAYPAL RECOVERY\u001b[0m - Recuperación de contraseña de PayPal.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.paypal.com/authflow/password-recovery/");
+
         Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\u001b[1mDEFASTRA\u001b[0m - OSINT correo electrónico.");
+        Console.WriteLine("\u001b[1mDEFASTRA\u001b[0m -  Skype, Airbnb y otras plataformas en las que se ha registrado.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://defastra.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mVERIFYMAIL\u001b[0m - Verificación de direcciones de correo electrónico.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   http://verifyemail.io/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mOSINT INDUSTRIES\u001b[0m - Inteligencia de fuentes abiertas.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   http://osint.industries/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mEPIEOS\u001b[0m - OSINT Correo Electrónico.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://epieos.com/");
+
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mSPOKEO\u001b[0m - Búsqueda por nombre, teléfono, dirección o email.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.spokeo.com/");
-        // Continúa añadiendo enlaces aquí
+
         Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mDEHASHED\u001b[0m (r) — checking mail in leaked databases");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://dehashed.com");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mINTELX\u001b[0m — Encuentra menciones en fugas de información, Tor, I2P y en una amplia base de datos.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://intelx.io");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mMOST WANTED\u001b[0m — Obtienes cuenta de Skype.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://mostwantedhf.info/email.php");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mEMAIL 2 PHONE NUMBER\u001b[0m (t) — Recopila información de las páginas de recuperación de cuenta y muestra teléfono (GitHub).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://github.com/martinvigo/email2phonenumber");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mHOLEHE\u001b[0m — Comprueba webs en las que se ha registrado el correo que buscas (GitHub).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://github.com/megadose/holehe");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mROCKET SEARCH\u001b[0m - Obtén el nombre, perfil de redes sociales, correo electrónico, teléfono parcial y más (Ruso).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://rocketreach.co");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mM.OK.RU\u001b[0m — Muestra parte de un teléfono, email, apellidos, ciudad, aconsejable modo incógnito (Ruso).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://m.ok.ru/dk?st.cmd=accountRecoverFeedbackForm");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mAVATAR API\u001b[0m — Encuentra el avatar de múltiples fuentes.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://avatarapi.com");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mVEDBEX\u001b[0m — Cuenta de SKYPE.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.vedbex.com/tools/email2skype");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mWHOIS XML API\u001b[0m — Encuentra dominios web del whois (Ruso).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://tools.whoisxmlapi.com/reverse-whois-search");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mLEAK LOOKUP\u001b[0m (r) — will show on which sites there was a leak with the sought email address");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://leak-lookup.com/search");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mWHOXY\u001b[0m — Realiza búsqueda en los registros de Whois.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.whoxy.com/reverse-whois/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mGRAVATAR\u001b[0m — Obtén la imagen avatar del objetivo.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   http://en.gravatar.com/site/check/");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mSPY DIALER\u001b[0m — Muestra el nombre del usuario del correo.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://www.spydialer.com");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mX-RAY CONTACT\u001b[0m (r) — Búsqueda en leaks rusos. Obtén teléfono, redes sociales, otros correos. IP fuera de Rusia.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://x-ray.contact/ru-search");
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\u001b[1mRISKIQ\u001b[0m (r) — Búsqueda en los registros del Whois (Ruso).");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("   https://community.riskiq.com");
+
+        // Continúa añadiendo enlaces aquí
+            Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
         Console.ReadKey();
 
@@ -389,8 +577,6 @@ class Program
         Console.WriteLine("\u001b[1mINDEED\u001b[0m - Página web de ofertas de empleo.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://es.indeed.com/?from=gnav-homepage");
-        Console.WriteLine("");
-        Console.WriteLine("");
         // Continúa añadiendo enlaces aquí
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
@@ -426,12 +612,11 @@ class Program
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mGEOSOCIAL FOOTPRINT\u001b[0m - Geolocalización para Twitter (X).");
         Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine("   https://geosocialfootprint.com/"); Console.WriteLine("");
+        Console.WriteLine("   https://geosocialfootprint.com/");
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\u001b[1mSOCIAL SEARCHER\u001b[0m - Motor de búsqueda en redes sociales.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://social-searcher.com/");
-        Console.WriteLine("");
         // Continúa añadiendo enlaces aquí
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
@@ -476,8 +661,6 @@ class Program
         Console.WriteLine("\u001b[1mSUNCALC\u001b[0m - Para saber la hora en la que fue tomada una fotografía.");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("   https://www.suncalc.org/");
-        Console.WriteLine("");
-        Console.WriteLine("");
         // Continúa añadiendo enlaces aquí
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("\nPresiona una tecla para volver al menú principal.");
@@ -520,6 +703,3 @@ class Program
 
     // Define métodos similares para las otras categorías aquí
 }
-
-
-
